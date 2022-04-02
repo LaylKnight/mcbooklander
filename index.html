@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--===== CUSTOM CSS =====-->
+    <link rel="stylesheet" href="./res/css/style.css">
+    <link rel="stylesheet" href="./res/css/carousel.css">
+
+    <!--===== FONTAWESOME =====-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <title>Macbook Pro</title>
+</head>
+<body class="body-image" >
+    <header class="header">
+        <div class="l-container">
+            <img src="./res/img/logo.png" alt="apple-logo">
+        </div>
+    </header>
+    <main class="bd-container">
+        <div id="BLOCK-1">
+            <div>
+                <h2>Congratulations!</h2>
+                <p class="light-text">You came in second but don't feel sad!</p>
+            </div>
+            <div class="img-container">
+                <div class="img-wrapper">
+                    <img src="./res/img/pro.png" alt="macbook-pro">
+                </div>
+                <div id="title-wrapper">
+                    <h1><span class="prime-title">ULTIMATE PRO</span></h1>
+                </div>
+            </div>    
+            <div class="info-container">
+                <h3>Welcome back to our competition</h3>
+                <h3 class="bold">ID - #AEE-123456-</h3>
+                <p  class="light-text">It's been while, we understand, but this competition was running for a few months because of the big main prize.
+                    <br>
+                    Since we could not get a hold of the competitions original winner, we've decided to pass the main prize to the second place. That's you!
+                    <br>
+                    Configure your prize using our interactive website - once we have confirmed your address, you will be enjoying your prize soon!
+                </p>
+            </div>
+            <div class="call-to-action">
+                <h3>You can still get your own macbook pro for <s>$15000</s></h3>
+                <button class="btn btn-secondary font-h2 bold" id="btn-cta-free"><span>FREE</span></button>
+            </div>
+        </div>
+        <div class="element-inactive block-inv" id="BLOCK-2">
+            <div class="page-identifier">
+                <ul>
+                    <li class="p-1 active"></li>
+                    <li class="p-2"></li>
+                </ul>
+            </div>
+            
+            <div id="card-1" class="card-container">
+                <div class="card">
+                    <div class="card-title q-container" style="margin-top:20px;">
+                        <h3 class="bold">
+                            Configure your macbook pro
+                        </h3>
+                    </div>
+                    <div  class="row-grid">
+                        <div class="">
+                            <span>Select Storage</span>
+                            <div class="row">
+                                <button class="btn btn-select bold" id="BTN-CONF-2TB">2 TB</button>
+                                <button class="btn btn-select bold" id="BTN-CONF-8TB">8 TB</button>
+                            </div>
+                        </div>
+                        <div class="">
+                            <span>Select Size</span>
+                            <div class="row">
+                                <button class="btn btn-select bold"  id="BTN-CONF-13INCH">13<br>INCH</button>
+                                <button class="btn btn-select bold"  id="BTN-CONF-16INCH" disabled>16<br>INCH</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="row">
+                        <div class="column-full">
+                            <span>Select Color</span>
+                            <div class="row">
+                                <div class="">
+                                    <button  class="btn btn-select btn-space bold"  id="BTN-CONF-SPACE">SPACE<br>GREY</button>
+                                </div>
+                                <div class="">
+                                    <button  class="btn btn-select btn-silver bold" id="BTN-CONF-SILVER">SILVER</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-inactive" id="BTN-NEXT-1">
+                    <div class="row bttm-btn-word">
+                        <div class="column-half btn-conf-container">
+                            <button class="btn btn-np bold">
+                                <span class="btn-desc-word">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div id="card-2" class="card-container">
+                <div class="card-title">
+                    <h2>
+                        Your MacBook is reserved
+                    </h2>
+                    <p class="light-text">
+                        One MacBook Pro has been reserved on your behalf. <br>You have 24 hours to claim your MacBook Pro, please follow the instructions below.
+                    </p>
+                </div>
+                <div class="carousel-wrapper">
+                    <span id="item-1"></span>
+                    <span id="item-2"></span>
+                    <span id="item-3"></span>
+                    <span id="item-4"></span>
+                    <div class="carousel-item item-1" id="CAROUSEL_ITEM_1">
+                        <div class="">
+                            <div class="card">
+                                <div  class="row">
+                                    <div class="column-full">
+                                        <span>QUESTION 1 OF 4</span>
+                                    </div>
+                                </div>
+                                <div  class="row">
+                                    <div class="column-full">
+                                        <div class="q-container">
+                                            <h3 class="card-title bold">Are you an active social media user?</h3>
+                                        </div>
+                                        <div class="btn-mc-container">
+                                            <div>
+                                                <button  class="btn bold  btn-mc" id="BTN-MC-YES-1" onclick="BTN_MC_MOVE_NEXT('1')">Yes</button>
+                                            </div>
+                                            <div class="">
+                                                <button  class="btn bold btn-mc" id="BTN-MC-NO-1" onclick="BTN_MC_MOVE_NEXT('1')">No</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-item item-2 element-inactive" id="CAROUSEL_ITEM_2">
+                        <div class="">
+                            <div class="card">
+                                <div  class="row">
+                                    <div class="column-full">
+                                        <span>QUESTION 2 OF 4</span>
+                                    </div>
+                                </div>
+                                <div  class="row">
+                                    <div class="column-full">
+                                        <div class="q-container">
+                                            <h3 class="card-title bold">Do you own any other Apple equipment?</h3>
+                                        </div>
+                                        <div class="btn-mc-container">
+                                            <div>
+                                                <button  class="btn bold btn-mc" id="BTN-MC-YES-2" onclick="BTN_MC_MOVE_NEXT('2')">Yes</button>
+                                            </div>
+                                            <div class="">
+                                                <button  class="btn bold btn-mc" id="BTN-MC-NO-2" onclick="BTN_MC_MOVE_NEXT('2')">No</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="carousel-item item-3 element-inactive" id="CAROUSEL_ITEM_3">
+                        <div class="">
+                            <div class="card">
+                                <div  class="row">
+                                    <div class="column-full">
+                                        <span>QUESTION 3 OF 4</span>
+                                    </div>
+                                </div>
+                                <div  class="row">
+                                    <div class="column-full">
+                                        <div class="q-container">
+                                            <h3 class="card-title bold">Do you want to get listed as our winner on our site?</h3>
+                                        </div>
+                                        <div class="btn-mc-container">
+                                            <div>
+                                                <button  class="btn bold btn-mc"  id="BTN-MC-YES-3" onclick="BTN_MC_MOVE_NEXT('3')">Yes</button>
+                                            </div>
+                                            <div>
+                                                <button  class="btn bold btn-mc" id="BTN-MC-NO-3" onclick="BTN_MC_MOVE_NEXT('3')">No</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row btn-bttm-arrow">
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="carousel-item item-4 element-inactive" id="CAROUSEL_ITEM_4">
+                        <div class="">
+                            <div class="card">
+                                <div  class="row">
+                                    <div class="column-full">
+                                        <span>QUESTION 4 OF 4</span>
+                                    </div>
+                                </div>
+                                <div  class="row">
+                                    <div class="column-full">
+                                        <div class="q-container">
+                                            <h3 class="card-title bold">Are you 18 years old or older?</h3>
+                                        </div>
+                                        <div class="btn-mc-container">
+                                            <div>
+                                                <button  class="btn bold btn-mc" id="BTN-MC-YES-4" onclick="GO_TO_CONFIRMATION(),PAGE_IDENTIFIER_ACTIVATOR(true)">Yes</button>
+                                            </div>
+                                            <div>
+                                                <button  class="btn bold btn-mc" id="BTN-MC-NO-4" onclick="GO_TO_CONFIRMATION(),PAGE_IDENTIFIER_ACTIVATOR(true)">No</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="row bttm-btn-word">
+                    <div class="column-half">
+        
+                    </div>
+                    <div class="column-half">
+                        <button class="btn btn-np bold btn-inactive" id="BTN-NEXT-2">
+                            <span class="btn-desc-word">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="row bttm-btn-icon">
+                    <div class="column-half">
+                       
+                    </div>
+                    <div class="column-half">
+                        <button class="btn-icon btn-icon-np bold btn-inactive" id="BTN_ICON-NEXT-2">
+                            <span class="btn-desc-word"><i class="fas fa-arrow-right"></i></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="element-inactive block-inv" id="BLOCK-3">
+            <div class="loader-container">
+                <div class="loader">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <h3 style="margin-bottom: 10%;">Processing answers...</h3>
+            <h3>Thank you for participating and we hope you will enjoy your prize.</h3>
+        </div>
+        <div class="element-inactive block-inv" id="BLOCK-4">
+            <div class="" style="margin-top: 6em;">
+                <div class="">
+                    <h2>ATTENTION:<br> 
+                        Please make sure to enter your correct details!
+                    </h2>
+                    <p class="light-text" style="margin-top: 2em;">Please confirm your details via our shipping partner on the next page.<br> 
+                        To ensure safe shipping there will be a small fee for secure shipping.
+                    </p>
+                </div>
+                <div style="margin-top:3em;">
+                    <div class="">
+                        <button id="btn-confirm" class="btn btn-secondary btn-single product-button" data-product-id="1">Confirm Shipping</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<!--====== JQUERY SCRIPT ======-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!--====== CUSTOM SCRIPT ======-->
+<script src="./res/js/script.js"></script>
+</html>
